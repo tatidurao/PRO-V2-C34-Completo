@@ -180,13 +180,13 @@ function draw()
      star.visible = false;
      //star_display.change('one');
      //star_display.Animation('one');
-     //star_display.changeAnimation('one');
+     star_display.changeAnimation('one');
    }
 
    if(collide(fruit,star2,40)==true)
    {
      star2.visible= false;
-     //star_display.changeAnimation('two');
+     star_display.changeAnimation('two');
      //star_display.('two');
      //star_display.Animation('two');
    }   
